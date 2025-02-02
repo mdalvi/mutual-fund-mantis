@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "mutual-fund-mantis"
+version = "0.1.0"
+description = ""
+authors = ["mdalvi <milind.dalvi@protonmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+tenacity = "^9.0.0"
+quantstats = "^0.0.64"
+ipython = "^8.32.0"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^25.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
